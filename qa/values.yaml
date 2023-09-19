@@ -1,5 +1,10 @@
 replicaCount: 3
 
+image:
+  repository: https://github.com/KairaSultan/argocd-demo.git
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "9.0.0"
 
 
 service:
