@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: https://github.com/KairaSultan/argocd-demo.git
+  repository: https://console.cloud.google.com/artifacts/docker/terraform-project-aug2023/us-central1/artemis/artemis/sha256:88bf390c6ea34eb43f83e76bf1b4ff4496d4bcb7951fecdd1de50bf9fdfffb70?authuser=2&hl=en&project=terraform-project-aug2023
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "9.0.0"
